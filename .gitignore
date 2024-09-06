@@ -1,0 +1,49 @@
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xcuserdatad
+*.xcscheme
+
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift build artifacts
+.build/
+*.swiftmodule
+*.swiftdoc
+*.swiftinterface
+*.dSYM/
+*.swiftsourceinfo
+*.swiftpm/x86_64-apple-macosx/
+*.swiftpm/x86_64-apple-ios/
+*.swiftpm/arm64-apple-ios/
+
+# Other
+*.DS_Store
+*.orig
+*.lock
+*.log
+*.swp
+*.tmp
+*.bak
+*.old
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Documentation
+docs/
