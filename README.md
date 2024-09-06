@@ -62,11 +62,10 @@ newConfig.config.save(to: "new_config.ini", header: "# My Custom Config")
 Unload the configuration from memory when you're done:
 
 ```swift
+// Creating or loading .ini files have to be unloaded when no longer used or on application closure.
 newConfig.config.unload()
 existingConfig.config.unload()
 ```
-
-*Unloading is pending rework to automate this*
 
 
 This Swift library is built on top of the Rini C library, developed by [raysan5](https://github.com/raysan5/rini).
