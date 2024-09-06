@@ -1,0 +1,4 @@
+module RiniC [system] {
+  header "rinic.c"
+  export *
+}
