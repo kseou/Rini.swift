@@ -1,6 +1,6 @@
 # Rini.swift
 
-**Rini.swift** is a Swift library that provides an interface to Rini originally created by [raysan5]https://github.com/raysan5/rini(), a simple, lightweight C-based config init file reader and writer. This Swift wrapper enables easy usage of Rini in a more Swifty manner, offering functionalities for loading, saving, and manipulating configuration files.
+**Rini.swift** is a Swift library that provides an interface to Rini originally created by [raysan5](https://github.com/raysan5/rini), a simple, lightweight C-based config init file reader and writer. This Swift wrapper enables easy usage of Rini in a more Swifty manner, offering functionalities for loading, saving, and manipulating configuration files.
 
 ## Installation
 Add Rini.swift to the dependencies array:
